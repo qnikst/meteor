@@ -15,14 +15,22 @@ extra-source-files:  CHANGELOG.md
 
 
 library
-  exposed-modules:     Lib
-  default-extensions: ImportQualifiedPost
-    TypeApplications
+  exposed-modules:
+    Step0
+    Lib
+  default-extensions:
     DeriveAnyClass
-    DerivingStrategies
     DeriveGeneric
+    DerivingStrategies
+    DerivingVia
+    GeneralizedNewtypeDeriving
+    ImportQualifiedPost
+    LambdaCase
+    NumericUnderscores
+    OverloadedStrings
     RecordWildCards
     TupleSections
+    TypeApplications
   -- other-modules:
   -- other-extensions:
   build-depends:       base >=4.14 && <4.15,
@@ -35,14 +43,30 @@ library
     stm,
     text,
     transformers
-  -- hs-source-dirs:
+  hs-source-dirs:
+    .
+    src/
   default-language:    Haskell2010
   
 
 executable meteor
   main-is:             Main.hs
-  -- other-modules:
+  default-extensions:
+    DeriveAnyClass
+    DeriveGeneric
+    DerivingStrategies
+    RankNTypes
+    -- DerivingVia
+    -- GeneralizedNewtypeDeriving
+    ImportQualifiedPost
+    LambdaCase
+    NumericUnderscores
+    OverloadedStrings
+    RecordWildCards
+    TupleSections
+    TypeApplications
   -- other-extensions:
-  build-depends:       base >=4.14 && <4.15
+  build-depends:       base >=4.14 && <4.15,
+     streaming, transformers, async, stm, text, mwc-random, containers
   -- hs-source-dirs:
   default-language:    Haskell2010
