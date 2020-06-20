@@ -17,6 +17,7 @@ extra-source-files:  CHANGELOG.md
 library
   exposed-modules:
     Step0
+    Step3
     Lib
   default-extensions:
     DeriveAnyClass
@@ -42,6 +43,7 @@ library
     resourcet,
     stm,
     text,
+    these,
     transformers
   hs-source-dirs:
     .
