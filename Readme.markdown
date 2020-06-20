@@ -61,12 +61,12 @@ After fixing the tenchologies we want to use we setup a plan:
       we can use STM to build communication pipelines.
       (0% Done)
 
-  3. Step2.hs — various notes on implemntation desing, how to make system composable
+  3. Step2.hs — various notes on implementation desing, how to make system composable
        do not hardwire parts on the implemnetation.
-     (0% Done)
+     (1% Done)
 
   4. Write a structured application (Main.hs)
-     (0% Done)
+     (80% Done)
 
   5. Add a foreword on applicability on the general approach and streams, show
      how to combine that with other approaches, show DI and test examples.
