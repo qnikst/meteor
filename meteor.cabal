@@ -18,6 +18,7 @@ library
   exposed-modules:
     Step0
     Step3
+    PingPong
     Lib
   default-extensions:
     DeriveAnyClass
