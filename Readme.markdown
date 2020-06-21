@@ -1,6 +1,6 @@
 This is just an example proejct that shows how to build an
 application based on the composable chunks. It's implemented
-as a proper implementation of the show-case application [MeteorCounter](https://hackage.haskell.org/package/streaming).
+as a proper implementation of the show-case application [MeteorCounter](https://github.com/graninas/Hydra/tree/master/app/MeteorCounter).
 
 While I was working with that application I has found that approach there
 is too couples and barely maintainable. I'm not sure if going into details
